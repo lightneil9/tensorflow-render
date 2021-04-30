@@ -21,7 +21,7 @@ from starlette.staticfiles import StaticFiles
 model_config_name = 'app/models/model.config'
 model_file_name = 'app/models/model_weights.h5'
 
-classes = ['forest', 'desert', 'ice_land']
+classes = ['0', '1', '2']
 path = Path(__file__).parent
 img_size = 224
 app = Starlette()
